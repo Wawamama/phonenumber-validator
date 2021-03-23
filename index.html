@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Validator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="buttons.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <h1>But here's my number, so call me maybe</h1>
+    <form id="form">
+        <label>Enter a valid US Number</label><br>
+            <div id="phone-field">
+                <img src="./assets/united-states.png" height="45px" width="45px">
+                <input type="text" class="textfield" id="phonenumber" placeholder="(555)555-5555"><br>
+            </div>
+        <input type="submit" class="small-btn" value="Submit">
+    <p id="result"></p>  
+    <p id="errors">Your phone number should match one of the following formats :<br>
+        555-555-5555<br>
+        (555)555-5555<br>
+        (555) 555-5555<br>
+        555 555 5555<br>
+        5555555555<br>
+        1 555 555 5555</p>  
+    </form>
+    
+</body>
+</html>

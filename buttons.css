@@ -1,0 +1,19 @@
+.small-btn {
+    padding: 5px;
+    background-color: #9424d5;
+    border-radius: 2px;
+    outline: none;
+    border:solid 0.2px #9424d5;
+    color: white;
+    width: 100px;
+    height: 35px;;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.small-btn:hover {
+    background: linear-gradient(180deg, rgba(171,57,237,1) 0%, rgba(159,121,191,0.7945553221288515) 100%);
+    transition: background 3s ease-in-out;
+}
